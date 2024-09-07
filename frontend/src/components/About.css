@@ -1,0 +1,111 @@
+/* Styles for the main section */
+.main {
+  background-image: url("explore.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 10rem 0;
+}
+
+/* Styles for the container within the main section */
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Styles for the image container within the main section */
+.main__img--container {
+  flex: 1;
+}
+
+/* Styles for the image card within the image container */
+.main__img--card {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Styles for the content within the main section */
+.main__content {
+  flex: 2;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main__content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main__content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.main__btn {
+  background-color: #007bff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.main__btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main__btn a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the blog section */
+.blog-section {
+  background-image: url("body.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 10rem 0;
+}
+
+.blog-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-post {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.blog-post h3 {
+  margin: 0 0 1rem;
+}
+
+.blog-post p {
+  margin: 0 0 1rem;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+
+.services {
+    background-color: #131313;
+    padding: 5rem 0;
+  }
+  
+  .services h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .services__card {
+    background: #262626;
+    color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 300px;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .services__card:hover {
+    background: #1c1c1c;
+  }
+  
+  .services__card h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .services__card p {
+    font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .services__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .services__card {
+      width: 80%;
+      margin: 1rem 0;
+    }
+  }
+  
